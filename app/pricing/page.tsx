@@ -1,9 +1,11 @@
+import { Hello } from "@/components/hello";
 import { title } from "@/components/primitives";
 
 export default function PricingPage() {
-	return (
-		<div>
-			<h1 className={title()}>Pricing</h1>
-		</div>
-	);
+  return (
+    <div>
+      <h1 className={title()}>Pricing</h1>
+      <Hello />
+    </div>
+  );
 }
